@@ -1,0 +1,73 @@
+
+/* Selector universal */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.navbar-brand img {
+    width: 200px;
+    max-width: 402px;
+}
+
+/* Hamburguesa */
+.navbar-light .navbar-toggler {
+    border: 1px solid #ffffff;
+}
+
+/* h1 se muestra desde los dispositivos que empiezan en 576px hacia arriba */
+h1 {
+  font-weight: 500;
+  color: #212529;
+}
+
+/* etiqueta h2 en el formulario */
+h2 {
+  font-size: 21px;
+  font-weight: 500;
+}
+
+/* etiqueta h5 para los card */
+.card-title {
+  font-weight: 300;
+  font-size: 20px;
+  color: #212529;
+}
+
+.card-text {
+  font-size: 16px;
+  font-weight: 300;
+  color: #707070;
+}
+
+.text-muted {
+  font-size: 13px;
+  font-weight: 300;
+  color: #707070;
+}
+
+/* selector .class donde para un precio para un precio de los card */
+.precio {
+ font-weight: 500;
+ font-size: 20px;
+}
+
+footer {
+  background-color: #ffffff;
+}
+
+footer img {
+  max-width: 410px;
+  width: 150px;
+}
+
+footer p {
+  font-weight: 300;
+  font-size: 16px;
+  color: #707070;
+}
